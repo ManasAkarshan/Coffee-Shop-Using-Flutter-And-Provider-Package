@@ -67,7 +67,7 @@ class _CartPageState extends State<CartPage> {
                 ),
               ),
               GestureDetector(
-
+                onTap: (){},
                 child: Container(
                   padding: const EdgeInsets.all(20),
                   decoration: const BoxDecoration(
@@ -76,7 +76,7 @@ class _CartPageState extends State<CartPage> {
                   child: const Center(child: Text('Pay Now' ,style: TextStyle(color: Colors.white, fontSize: 17),)),
                 ),
               ),
-              const SizedBox(height: 10,)
+              const SizedBox(height: 20,)
             ],
           ),
         );
